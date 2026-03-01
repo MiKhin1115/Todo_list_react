@@ -1,0 +1,29 @@
+{
+    "todolist" : [
+        {
+            "id": 1,
+            "tasks": "Clean Bedroom",
+            "complete": false
+        },
+        {
+            "id": 2,
+            "tasks": "Clean Bedroom",
+            "complete": true
+        },
+        {
+            "id": 3,
+            "tasks": "Clean Bedroom",
+            "complete": false
+        },
+        {
+            "id": 4,
+            "tasks": "Clean Bedroom",
+            "complete": false
+        },
+        {
+            "id": 5,
+            "tasks": "Clean Bedroom",
+            "complete": false
+        }
+    ]
+}

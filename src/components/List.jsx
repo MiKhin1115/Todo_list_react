@@ -4,7 +4,7 @@ import Form from "./Form";
 const List = () => {
   return (
     <div>
-      <Form></Form>
+     
       <div>
         <ol className="list-group">
 
