@@ -1,14 +1,12 @@
-import React from "react";
-import Form from "./Form";
 import Cart from "./Cart"
 
-const List = ({tasks}) => {
+const List = ({tasks, deleteTask}) => {
   return (
     <div>
      
       <div>
         <ol className="list-group">
-            <Cart tasks={tasks}/>
+            <Cart tasks={tasks} deleteTask={deleteTask}/>
         </ol>
       </div>
     </div>
