@@ -1,4 +1,15 @@
 {
-  "todolist": [],
+  "todolist": [
+    {
+      "id": "2f96eebc-254e-f99a-aca6-08e7af328c53",
+      "tasks": "cc",
+      "complete": true
+    },
+    {
+      "id": "8b6a66ee-d1d5-1cb9-fda3-1c0e8334cd45",
+      "tasks": "",
+      "complete": false
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

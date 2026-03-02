@@ -31,10 +31,15 @@ function App() {
     await api.delete(`/todolist/${task_id}`)
   }
 
+  const updateTask = async ( task_id, complete) => {
+    await api.patch(`/todolist/${task_id}`, {complete})
+    
+  }
+
   return (
     <div className="mx-auto w-50 mt-5">
       <Form submitTask={submitTask}></Form>
-      <List tasks={tasks} deleteTask={deleteTask}></List>
+      <List tasks={tasks} deleteTask={deleteTask} updateTask={updateTask}></List>
     </div>
   );
 }
